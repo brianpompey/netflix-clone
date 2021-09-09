@@ -8,9 +8,9 @@ dotenv.config();
 main().catch(err => console.log(err));
 
 async function main() {
-    await mongoose.connect('process.env.MONGO_URL');
+    await mongoose.connect('process.env.mongodb+srv://brianpompey:Melissa1217@cluster0.tp6xn.mongodb.net/netflix?retryWrites=true&w=majority');
 
-    console.log("DB Connection Successful"));
+    console.log("DB Connection Successful");
   }
 
 
